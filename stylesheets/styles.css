@@ -87,6 +87,7 @@ table {
   border-collapse: separate;
   border-spacing: 0;
   vertical-align: middle;
+  margin: 1em 0px;
 }
 caption,
 th,
@@ -94,6 +95,30 @@ td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
+}
+th, 
+td {
+  border-right: 1px solid rgba(0, 0, 0, 0.0666667);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0666667);
+  text-align: center;
+}
+th {
+  font-weight: bold;
+  padding: 0.2em 0.5em;
+  border-top: 1px solid rgba(0, 0, 0, 0.0666667);
+}
+td {
+  padding: 0.4em;
+}
+th:first-child, 
+td:first-child {
+  padding-left: 0px;
+  text-align: left;
+}
+th:last-child, 
+td:last-child {
+  padding-right: 0px;
+  border-right: none;
 }
 a img {
   border: none;
